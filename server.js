@@ -186,10 +186,6 @@ wss.on("connection", (twilioWs) => {
           prefix_padding_ms: 300,
           silence_duration_ms: 500,
         },
-        // ako želiš transkript:
-        input_audio_transcription: {
-          model: "gpt-4o-transcribe",
-        },
       },
     };
 
