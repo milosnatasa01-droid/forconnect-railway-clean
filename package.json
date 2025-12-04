@@ -1,0 +1,16 @@
+{
+  "name": "forconnect-railway",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mulaw-js": "^1.0.1",
+    "ws": "^8.18.3",
+    "x-law": "^0.3.1"
+  }
+}
