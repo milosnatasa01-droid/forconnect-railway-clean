@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8080;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const OPENAI_MODEL =
   process.env.OPENAI_MODEL || "gpt-4o-mini-realtime-preview";
-const OPENAI_VOICE = process.env.OPENAI_VOICE || "alloy"; // VAŽNO: alloy je siguran
+const OPENAI_VOICE = process.env.OPENAI_VOICE || "verse"; // VAŽNO: verse je siguran
 const WS_ENDPOINT = process.env.WS_ENDPOINT; // npr. wss://ai-voice.forconnect.nl/media-stream
 
 // osnovne provere
